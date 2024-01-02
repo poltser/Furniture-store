@@ -13,7 +13,7 @@
             <li class="nav-item dropdown" data-v-41458b80="">
                 <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-v-41458b80=""> Мой аккаунт </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown" data-v-41458b80="">
-                    <a href="{{ route('login') }}" class="dropdown-item" data-v-41458b80="">Избранное</a>
+                    <a href="{{ route('favourites') }}" class="dropdown-item" data-v-41458b80="">Избранное</a>
                     @guest()
                         <a href="{{ route('login') }}" class="dropdown-item" data-v-41458b80="">Войти</a>
                     @endguest
